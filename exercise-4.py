@@ -14,13 +14,13 @@
 #      - A triangle with sides of <a>, <b> & <c> is a <type of triangle> triangle
 
 print('Enter the lengths of three side of a triangle:')
-a = input('a:')
-b = input('b:')
-c = input('c:')
+side1 = input('side 1:')
+side2 = input('side 2:')
+side3 = input('side 3:')
 
-if a == b and b == c:
-  print(f'A triangle with sides of {a}, {b} & {c} is an equalateral triangle.')
-elif a != b and a != c and b != c:
-  print(f'A triangle with sides of {a}, {b} & {c} is a scalene triangle.')
+if side1 == side2 and side2 == side3:
+  print(f'A triangle with sides of {side1}, {side2} & {side3} is an equalateral triangle.')
+elif side1 != side2 and side1 != side3 and side2 != side3:
+  print(f'A triangle with sides of {side1}, {side2} & {side3} is a scalene triangle.')
 else:
-  print(f'A triangle with sides of {a}, {b} & {c} is an isosceles triangle.')
+  print(f'A triangle with sides of {side1}, {side2} & {side3} is an isosceles triangle.')
